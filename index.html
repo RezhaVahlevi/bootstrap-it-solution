@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#">Our Client</a>
               </li>
               <li class="nav-item">
-                  <button class="btn btn-primary">Login</button>
+                  <button class="btn primary-color">Login</button>
               </li>
             </ul>
           </div>
@@ -55,19 +55,19 @@
               <div class="row align-items-center align-content-center">
                   <div class="col-md-6">
                       <div class="home-img text-center">
-                          <img src="assets/image/1.png" alt="" style="width: 100%; z-index: -1;">
+                          <img src="assets/image/1.png" class="img-responsive">
                       </div>
                   </div>
                   
                   <div class="col-md-6 order-md-first">
                       <div class="home-text">
-                          <h1 class="mb-1 fs-1 fw-bold">Search IT Solution <br> for your business</h1>
+                          <h1 class="mb-2 fs-1 fw-bold">Search IT Solution <br> for your business</h1>
                         </div>
                         <p class="text-muted mb-1">We will help you to solve problem, <br> So take it easy.</p>
                         <form action="#">
                             <div class="search-card">
                                 <input type="text" class="form-control" placeholder="Search for answer...">
-                                <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                                <button class="btn primary-color"><i class="fas fa-search"></i></button>
                             </div>
                         </form>
                     </div>
@@ -82,7 +82,7 @@
           <div class="row text-center">
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="service-item py-4 rounded">
-                <img src="assets/image/about 1.png" alt="" style="width: 50%;">
+                <img src="assets/image/about 1.png" class="img-about">
               </div>
               <h3 class="fs-5 py-2">
                 Landing Page for Business
@@ -93,7 +93,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="service-item py-4 rounded">
-                <img src="assets/image/about 2.png" alt="" style="width: 50%;">
+                <img src="assets/image/about 2.png" class="img-about">
               </div>
               <h3 class="fs-5 py-2">
                 Help you to reach the target
@@ -104,7 +104,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mb-4">
               <div class="service-item py-4 rounded">
-                <img src="assets/image/about 3.png" alt="" style="width: 50%;">
+                <img src="assets/image/about 3.png" class="img-about">
               </div>
               <h3 class="fs-5 py-2">
                 Report every transaction
@@ -117,7 +117,7 @@
         </div>
       </section>
 
-      <section class="experience" id="experience">
+      <section class="experience py-5" id="experience">
         <div class="container-lg">
           <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -128,25 +128,29 @@
 
             <div class="container-lg">
               <div class="row align-items-center align-content-center">
-                  <div class="col-md-6 mt-5 mt-md-0">
+                  <div class="col-md-7 mt-5 mt-md-0">
                       <div class="home-img text-center">
-                          <img src="assets/image/experience 2.png" alt="" style="width: 100%; z-index: -1;">
+                          <img src="assets/image/experience 2.png" class="img-responsive">
                       </div>
                   </div>
                   
-                  <div class="col-md-6 md-0 order-md-first">
-                        <div class="home-text">
+                  <div class="col-md-5 md-0 order-md-first">
+                        <div class="home-text mb-3">
                           <h3 class="fw-bold">We have a lots of experience <br> to make business growing up.</h3>
                         </div>
-                        <p class="text-muted mb-1">We will help you to solve problem, <br> So take it easy.</p>
+                        <p class="text-muted mb-3">We've a professional team ready to help you. <br> The method we user will be fit to yout business.</p>
                         
-                        <div class="d-flex">
-                            <img src="assets/image/icon 1.png" alt="" style="width: 12%;" class="mx-3">
-                            <p class="text-muted mb-1">We will help you to solve problem, <br> So take it easy.</p>
+                        <div class="d-flex mb-4">
+                            <img src="assets/image/icon 1.png" class="img-experience mx-3 mt-md-0">
+                            <div>
+                            <p class="text-muted mb-1">The technical team will be responsible for technology needs.</p>
+                          </div>
                         </div>
                         <div class="d-flex">
-                            <img src="assets/image/icon 2.png" alt="" style="width: 12%;" class="mx-3">
-                            <p class="text-muted mb-1">We will help you to solve problem, <br> So take it easy.</p>
+                            <img src="assets/image/icon 2.png" class="img-experience mx-3 mt-md-0">
+                            <div>
+                            <p class="text-muted mb-1">We've business development team will assist you to achieve the company target.</p>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -166,103 +170,46 @@
           </div>
 
           <div class="row">
+
+            <!-- Card Price -->
             <div class="col-md-4 justify-content-center justify-items-center mb-4">
-              <div class="card" style="width: auto;">
+              <div class="card border-0 shadow">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     <div class="col text-center">
-                      <button class="btn btn-outline-success item">Basic</button>
+                      <!-- <button class="btn btn-outline-success item">Basic</button> -->
+                      <div class="head-price mb-2">
+                        Basic 
+                      </div>
                     </div>
                     <h2 class="text-center">$29</h2>
                     <p class="text-center">per month</p>
-                    <div>
-                      <i class="fas fa-check"></i>
+                    <div class="mb-2  text-muted">
+                      <i class="fas fa-times poin-price cross"></i>
                       Analytic dashboard
                     </div>
-                    <div>
-                      <i class="fas fa-check"></i>
+                    <div class="mb-2 text-muted">
+                      <i class="fas fa-check poin-price checklist"></i>
                       Problem analysis
                     </div>
-                    <div>
-                      <i class="fas fa-check"></i>
+                    <div class="mb-2 text-muted">
+                      <i class="fas fa-check poin-price checklist"></i>
                       Solve the problem
                     </div>
-                    <div>
-                      <i class="fas fa-check"></i>
+                    <div class="mb-2 text-muted">
+                      <i class="fas fa-check poin-price checklist"></i>
                       Report documentation
                     </div>
                   </li>
                 </ul>
-                <div class="card-footer bg-success text-center">
-                  Order now
+                <div class="bg-primary-1">
+                  <div class="card-footer text-center">
+                    Order now
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 justify-content-center justify-items-center mb-4">
-              <div class="card" style="width: auto;">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <div class="col text-center">
-                      <button class="btn btn-outline-success item">Basic</button>
-                    </div>
-                    <h2 class="text-center">$29</h2>
-                    <p class="text-center">per month</p>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Analytic dashboard
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Problem analysis
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Solve the problem
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Report documentation
-                    </div>
-                  </li>
-                </ul>
-                <div class="card-footer bg-success text-center">
-                  Order now
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 justify-content-center justify-items-center mb-4">
-              <div class="card" style="width: auto;">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <div class="col text-center">
-                      <button class="btn btn-outline-success item">Basic</button>
-                    </div>
-                    <h2 class="text-center">$29</h2>
-                    <p class="text-center">per month</p>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Analytic dashboard
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Problem analysis
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Solve the problem
-                    </div>
-                    <div>
-                      <i class="fas fa-check"></i>
-                      Report documentation
-                    </div>
-                  </li>
-                </ul>
-                <div class="card-footer bg-success text-center">
-                  Order now
-                </div>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
+            <!-- End Price -->
 
 
           </div>
@@ -335,7 +282,7 @@
         </div>
       </section>
 
-      <footer class="footer py-5" id="footer" style="background-color: aqua;">
+      <footer class="footer py-5" id="footer" >
         <div class="container-lg">
           <div class="row mb-5">
             <div class="col-md-4">
@@ -343,34 +290,34 @@
                 SOLIT.
               </div>
               <div class="dflex mb-3">
-                <i class="fas fa-envelope"></i>
-                <i class="fas fa-envelope"></i>
-                <i class="fas fa-envelope"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
               </div>
             </div>
 
             <div class="col-md-2 mb-3">
-              <p>Company</p>
+              <p class="fw-bold">Company</p>
               <p>About</p>
               <p>Careers</p>
               <p>Blog</p>
             </div>
 
             <div class="col-md-2 mb-3">
-              <p>Features</p>
+              <p class="fw-bold">Features</p>
               <p>Release Note</p>
               <p>Pricing</p>
             </div>
 
             <div class="col-md-2 mb-3">
-              <p>Documentation</p>
+              <p class="fw-bold">Documentation</p>
               <p>Privacy & Policy</p>
               <p>Docs</p>
               <p>Support</p>
             </div>
 
             <div class="col-md-2 mb-3">
-              <p>Contact Us</p>
+              <p class="fw-bold">Contact Us</p>
               <p>Mail</p>
               <p>Building Map</p>
               <p>Help</p>

@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+}
+
+.bg-primary-1 {
+    background-color: #24cdaf;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-primary-1:hover {
+    color: #fff;
+}
+
+.price-card {
+    border-color: #fff;
+}
+
+.btn.primary-color {
+    background: #24cdaf;
+    color: #fff;
 }
 
 .search-card {
@@ -18,6 +38,59 @@
 
 .search-card .form-control:focus {
     box-shadow: none;
+}
+
+.head-price {
+    color: #24cdaf;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-color: #24cdaf;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.poin-price {
+    margin-right: 3%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.poin-price.checklist{
+    background-color: #24cdaf;
+}
+
+.cross{
+    font-size: 1.5rem;
+    color: #cd2424;
+}
+
+.img-responsive{
+    width: 100%;
+    z-index: -1;
+}
+
+.img-about {
+    width: 50%;
+}
+
+.img-experience {
+    width: 20%;
+    margin: auto;
+}
+
+/*------------------------------------------------------------------
+    [Price List]
+------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+    [Footer]
+------------------------------------------------------------------*/
+footer{
+    background-color:#24cdaf;
+    color: #fff;
 }
 
 /*------------------------------------------------------------------
