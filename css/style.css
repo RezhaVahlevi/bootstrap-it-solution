@@ -5,16 +5,66 @@
     line-height: 2rem;
 }
 
-.bg-primary-1 {
-    background-color: #24cdaf;
-    text-decoration: none;
-    color: #fff;
+/*------------------------------------------------------------------
+    [Nav Bar]
+------------------------------------------------------------------*/
+.logo{
+    width: 40px;
 }
 
-.bg-primary-1:hover {
-    color: #fff;
+.logo-text {
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
 }
 
+.backgrounds{
+    background-color: #F8FFFE;
+}
+
+.main-text{
+    color: #272F36;
+}
+
+.sub-text{
+    color: #939393;
+}
+
+.search-card {
+    display: flex;
+    background-color: #fff;
+    color: red;
+    padding: 1rem;
+    box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
+    border-radius: 0.5rem;
+}
+
+.search-card .form-control {
+    border-width: 0;
+}
+
+.search-card .form-control:focus {
+    box-shadow: none;
+}
+
+.img-responsive{
+    width: 100%;
+    z-index: -1;
+}
+
+.img-about {
+    width: 50%;
+}
+
+.img-experience {
+    width: 20%;
+    margin: auto;
+}
+
+/*------------------------------------------------------------------
+    [Price List]
+------------------------------------------------------------------*/
 .card-price {
     color: slategray;
     text-decoration: none;
@@ -40,44 +90,11 @@
     color: #fff;
 }
 
-.search-card {
-    display: flex;
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
-    border-radius: 0.5rem;
-}
-
-.search-card .form-control {
-    border-width: 0;
-}
-
-.search-card .form-control:focus {
-    box-shadow: none;
-}
 
 .cross{
     font-size: 1rem;
     color: #cd2424;
 }
-
-.img-responsive{
-    width: 100%;
-    z-index: -1;
-}
-
-.img-about {
-    width: 50%;
-}
-
-.img-experience {
-    width: 20%;
-    margin: auto;
-}
-
-/*------------------------------------------------------------------
-    [Price List]
-------------------------------------------------------------------*/
 
 .head-price {
     color: #24cdaf;
@@ -99,6 +116,21 @@
 .poin-price.checklist{
     font-size: 1rem;
     background-color: #24cdaf;
+}
+
+.poin-price.cross{
+    font-size: 1rem;
+    color: red;
+}
+
+.bg-card {
+    background-color: #24cdaf;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-card:hover {
+    color: #fff;
 }
 
 .enterprise-text {
