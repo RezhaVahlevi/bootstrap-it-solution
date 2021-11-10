@@ -15,8 +15,24 @@
     color: #fff;
 }
 
-.price-card {
-    border-color: #fff;
+.card-price {
+    color: slategray;
+    text-decoration: none;
+}
+
+.card-price:hover {
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    -moz-transform: translate(0px, -20px);
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -10px);
+}
+
+.card-price h2 {
+    font-weight: 600;
+    font-size: 48px;
 }
 
 .btn.primary-color {
@@ -40,29 +56,8 @@
     box-shadow: none;
 }
 
-.head-price {
-    color: #24cdaf;
-    border-style: solid;
-    border-width: 1px;
-    background-color: #ffffff;
-    border-color: #24cdaf;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.poin-price {
-    margin-right: 3%;
-    padding: 10px;
-    color: #fff;
-    border-radius: 100%;
-}
-
-.poin-price.checklist{
-    background-color: #24cdaf;
-}
-
 .cross{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #cd2424;
 }
 
@@ -84,6 +79,32 @@
     [Price List]
 ------------------------------------------------------------------*/
 
+.head-price {
+    color: #24cdaf;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-color: #24cdaf;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.poin-price {
+    margin-right: 3%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.poin-price.checklist{
+    font-size: 1rem;
+    background-color: #24cdaf;
+}
+
+.enterprise-text {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
 
 /*------------------------------------------------------------------
     [Footer]
@@ -91,6 +112,20 @@
 footer{
     background-color:#24cdaf;
     color: #fff;
+}
+
+.list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-unstyled{
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-unstyled:hover{
+    color: #03977c;
 }
 
 /*------------------------------------------------------------------
